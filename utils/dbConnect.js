@@ -3,7 +3,7 @@ import mongoose from 'mongoose';
 
 let isConnected = false; // track the connection
 
-const MONGODB_URI = "mongodb+srv://Abeer2510:Abeer2510@testing1.wbdimtk.mongodb.net/?retryWrites=true&w=majority&appName=Testing1";
+const MONGODB_URI = "mongodb+srv://Abeer2510:<pass>@testing1.wbdimtk.mongodb.net/?retryWrites=true&w=majority&appName=Testing1";
 
 export const dbConnect = async () => {
   mongoose.set('strictQuery', true);
